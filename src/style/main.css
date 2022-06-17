@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+*, ::after, ::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #2077E9;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+  margin: 5px;
+}
+
+h1 {
+  color: #fff;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 2px #00000056;
+  pointer-events: none;
+  margin-bottom: 32px;
+  font-size: 38px;
+}
+
+.max {
+  background-color: #fff;
+  color: #2077E9;
+  padding: 6px;
+  border-radius: 10px;
+  -webkit-box-shadow: 1px 1px 2px #00000044, inset 2px 2px 4px #00000044, inset -2px -2px 4px #00000044, -1px -1px 2px #00000044;
+          box-shadow: 1px 1px 2px #00000044, inset 2px 2px 4px #00000044, inset -2px -2px 4px #00000044, -1px -1px 2px #00000044;
+}
+
+.content {
+  padding: 15px;
+  -webkit-box-shadow: 0 1px 2px #0003;
+          box-shadow: 0 1px 2px #0003;
+  background-color: #fff;
+  border-radius: 7px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 5px;
+  -webkit-box-shadow: 2px 2px 10px #0000001b, inset 2px 2px 4px #00000044, inset -2px -2px 4px #00000044, -2px -2px 10px #0000001b;
+          box-shadow: 2px 2px 10px #0000001b, inset 2px 2px 4px #00000044, inset -2px -2px 4px #00000044, -2px -2px 10px #0000001b;
+}
+
+.divSelects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5px;
+}
+
+select {
+  width: 50%;
+  padding: 10px;
+  cursor: pointer;
+  outline: none;
+  font-size: 18px;
+  border-color: #ddd;
+  border-radius: 5px;
+}
+
+.divTextareas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5px;
+  border-radius: 7px;
+}
+
+textarea {
+  border-color: #ddd;
+  outline: none;
+  padding: 5px;
+  font-size: 18px;
+  width: 50%;
+  border-radius: 7px;
+  resize: none;
+}
+
+button {
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  background-color: #2077E9;
+  color: #fff;
+  border-radius: 7px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+  letter-spacing: 1px;
+}
+
+button:hover {
+  opacity: .9;
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+}
+
+@media only screen and (max-width: 530px) {
+  .container {
+    width: 90vw;
+  }
+}
+/*# sourceMappingURL=main.css.map */
